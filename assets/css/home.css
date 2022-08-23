@@ -1,0 +1,92 @@
+
+    /*======================\
+               HOME
+    \======================*/
+    #About{
+        min-height: 550px;
+        margin-top: 50px;
+        background: rgba(184, 184, 184, 0.507);
+    }
+    #left{
+        min-height: 450px;
+        background: rgb(255, 255, 255);
+    }
+    
+    #mid{
+        min-height: 450px;
+        background: rgb(255, 255, 255);
+    }
+    #left:hover,#mid:hover{
+        min-height: 450px;
+        border: 1px dashed #666;
+        background: rgb(255, 255, 255);
+        box-shadow: 5px 5px 12px rgba(102, 102, 102, 0.5);
+    }   
+    #parallax{
+        min-height: 450px;
+        background: url(../img/wepik-202229-162951.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        margin-top: 50px;
+    }
+    .blockquote h2{
+        color: aliceblue;
+        margin-top: 150px;
+        text-shadow: 5px 5px 25px #444;
+        border-left: 2px solid rgb(236, 236, 236);
+        border-radius: 5px;
+    }
+    
+    #social{
+        min-height: 60px;
+        background: rgba(255, 255, 255, 0.356);
+        font-size: 35px;
+        margin-top: 25px;
+        text-align: center;
+        justify-content: center;
+    }
+    #social a {
+        color: grey;
+    }
+    #fb:hover{
+        color:rgb(0, 23, 231);
+    }
+    #wh:hover{
+        color:rgb(0, 139, 46);
+    }
+    #ig:hover{
+        color: magenta;
+    }
+    #tw:hover{
+        color: rgb(31, 188, 250);
+    }
+    #em:hover{
+        color: rgb(250, 31, 31);
+    }
+    #footer{
+        min-height: 50vh;
+        margin-top: 50px;
+        background: url(../img/footer.webp) no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    #partners{
+        min-height: 40vh;
+        background: rgba(0, 0, 0, 0.493);
+    }
+    
+    #quick-links{
+        min-height: 40vh;
+        background: rgba(0, 0, 0, 0.493);
+    }
+    
+    #contcts{
+        min-height: 45vh;
+        background: rgba(0, 0, 0, 0.493);
+    }
+    #partner{
+        min-height: 150px;
+        background: #000;
+    }

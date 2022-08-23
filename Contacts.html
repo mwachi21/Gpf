@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Varela+Round&display=swap');
+  </style>
+<link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+
+<!-- Bootstrap icon CDN-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+<link rel="stylesheet" href="assets/vendor/bootstrap-icons.css">
+
+
+  <!-- CDN Bootstrap-->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!--offline bootstrap-->
+
+  <link rel="stylesheet" href="assets/vendor/bootstrap.min.css">
+
+  <!-- Smooth Scroll-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+     <script>
+        $(function() {
+          $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top
+                }, 1000);
+                return false;
+              }
+            }
+          });
+        });
+        
+        </script>
+  <!-- Smooth Scroll-->
+  <title>Contacts</title>
+</head>
+<body>
+ <div id="wrapper">
+  <!-- Nav-->
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      
+      <a class="navbar-brand" href="#Home" class='col-md-4' 
+      ><img src="assets/img/logo-landscape.png" alt="too large to display" width="160px"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown" style="margin-left: 50px;">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              more
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Partners</a>
+              <a class="dropdown-item" href="#">Blog</a>
+              <a class="dropdown-item" href="#">Our Profile</a>
+            </div>
+          </li>
+        </ul>
+        
+      </div>
+      <img src="assets/img/kenya.gif" alt="">
+    </nav>
+  </header>
+
+  <div class="pos-f-t" id="pos-f-t">
+    <div class="collapse" id="navbarToggleExternalContent" style="margin-left: 50px;">
+      <div class="bg-dark p-4">
+        <h5 class="text-white h4">History</h5>
+        <hr style="background:rgba(255, 255, 255, 0.712);">
+        <span class="text-muted">
+          How the culture of growing trees started
+          <div class="row">
+            <div class="col-sm-4">
+              In the industrial countries, voluntary environmental agreements often provide a platform for companies to be recognized for moving beyond the minimum regulatory standards and thus support the development of the best environmental practice.
+             </div>
+            <div class="col-sm-4">
+              <br>
+The ancient Greeks and Romans were great planters. The Romans have left evidence in their extensive horticultural manuals of how they planted trees. Advice included avoiding damage to roots, digging a large enough hole, and marking a tree with red ochre on one side before it was dug up, 
+
+            </div>
+            <div class="col-sm-4">
+              <br>
+Planting of fruit, nut and ornamental trees in gardens continued in times of peace and prosperity. Once towns and settlements no longer needed to be crowded behind fortifications, space became available for gardens and 
+            </div>
+          </div>
+        </span>
+      </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+  </div>
+ <marquee behavior="scroll" direction="left">
+    <h5><span style="color: rgb(255, 255, 255);">Green Planet Foundation</span> is A Non-Governmental Organisation with the main <red style="color:red">intention</red> of Greenifying The planet  </h5>
+    
+  </marquee> 
+  
+  <!-- Nav End-->
+        <!-- ============================\
+                  CONTACTS
+        /============================-->
+        <div id="banner-contacts" .container>
+          <br>
+          <br>
+          <h1 style="color: rgb(255, 255, 255); margin-left: 20px; font-size: 50px;">CONTACT US</h1>
+        </div>
+        <!-- FORM -->
+          <form class="container-fluid" id="contacts" action="php/login.php" method="post" accept-charset="utf-8">
+
+            <h5 style="text-align: center;">Send Us A Message</h5>
+            <hr style="width: 20%; margin: auto; height: 2px;">
+            <div class="row" id="form-in">
+              <div id="white-form" class="col-md-8">
+                <br>
+                <h5>Create Account</h5>
+                <br>
+                <div class="input-group">
+                  <input type="text" aria-label="First name" class="form-control" placeholder="First name" name="first-name" required>
+                  <input type="text" aria-label="Last name" class="form-control" placeholder="Second name" name="last-name" required>
+                </div>
+                <br>
+                <div class="input-group">
+                  
+                  <input type="telephone" aria-label="First name" class="form-control" placeholder="Telephone" name="tel" required>
+                  <input type="text" aria-label="First name" class="form-control" placeholder="Company/NGO" name="company" required>
+                  
+                </div> 
+
+                <!-- email-->
+
+                <br>
+                <div class="input-group">
+                  
+                  <input type="email" aria-label="First name" class="form-control" placeholder="info@email.com" name="email" required>
+                  
+                  
+                </div> 
+                <br>
+  
+                <div class="input-group">
+                  <textarea name="comment" id="text" cols="100" rows="7" placeholder="Enter your Suggestion" required></textarea>
+                </div>
+                <input type="submit" value="SUBMIT" style="padding: 6px; border: 2.4px solid #07ff87; border-radius: 4px; margin: 3px; background: #09D974; text-shadow: 0px 0px 1px 3px; color: #fff;">
+              </div>
+              <div id="greeen" class="col-md-4">
+                <br>
+                <br>
+                <h5 style="color: rgb(255, 255, 255);">Contact Information</h5>
+              <p>
+                Talk to our customer care in case you have a concern or complaint about <b>Greenlight Planet</b>
+                you can also visit our offices
+              </p>
+              <h4 style="color: rgb(255, 255, 255);"><i class="bi bi-geo-alt"></i> Mathare, Nairobi, Kenya
+                <br>
+                <i class="bi bi-telephone-outbound-fill"></i> 
+                +254714963647 
+                <br>
+                <i class="bi bi-envelope-open"></i> mwachidennis567@gmail.com
+              </h4>
+              <a href="tel:+254714963647"></a><button><i class="bi bi-telephone-outbound-fill"></i> Call Now</button>
+              </div></a>
+
+            </div>
+          </form>
+
+             <!-- social-->
+             <div class="container" id="social">
+                <h5>Talk to Us on Socials</h5>
+                <a href=""><i class="bi bi-facebook" id="fb"></i></a>
+                <a href="https://wa.me/+254725905958" target="_blank"><i class="bi bi-whatsapp" id="wh"></i></a>
+                
+                <a href=""><i class="bi bi-instagram" id="ig"></i></a>
+                <a href=""><i class="bi bi-twitter" id="tw"></i></a>
+              </div>
+              <!-- Social-->
+             
+  
+        <!--footer-->
+      <div class="container-fluid" id="footer">
+          <div class="row">
+            <div class="col-md-4" id="partners">
+              <h4 style="color: rgb(206, 206, 206);">Environment Conservation Act</h4>
+              <hr style="background: #fff;">
+                <p style="color: rgb(240, 240, 240); margin-left: 20px;">The Act aims at providing for the effective protection and controlled utilization of the environment and for matters incidental thereto. It is divided into the following Parts: Policy for environmental conservation (I); Council for the Environment, Committee for Environmental Management (II); Protection of natural environment (III); Control of environmental pollution (IV); Control of activities which may have detrimental effect on the environment (V); Regulations (VI); Offences, penalties and forfeiture (VII);</p>
+            </div>
+            <div class="col-md-4" id="quick-links">
+              <h4 style="color: rgb(206, 206, 206);">Quick links</h4>
+              <hr style="background: #fff;">
+                <ul style="color: rgba(255, 255, 255, 0.904); font-weight: 79; cursor: pointer;">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="About.html">About</a></li>
+                  <li><a href="Services.html">Projects</a></li>
+                  <li><a href="Services.html">Services</a></li>
+                  <li><a href="Contacts.html">Contacts</a></li>
+                  <li><a href="Gallery.html">Gallery</a></li>
+  
+  
+  
+                </ul>
+                <form action="search" >
+                  <input type="search" placeholder="Search"><button><i class="bi bi-search"></i></button>
+                </form>
+            </div>
+            <div class="col-md-4" id="contcts">
+              
+                <h4 style="color: rgb(206, 206, 206);">Our Contacts</h4>
+                <hr style="background: #fff;">
+                <p style="color: rgb(240, 240, 240);">
+                  <i class="bi bi-geo-alt-fill"></i> Valley-View ,Nairobi <br>
+                  <i class="bi bi-phone-fill"></i> +257-25-905-958 <br>
+                  <i class="bi bi-telephone-fill"></i> 0811-000-000 <br>
+             <a href="#">mwachidennis567@gmail.com</a>
+            <br>
+            <a href="#"><i class="bi bi-envelope-open"></i>
+              gpf@hotmail.com</a></p>
+               <form action="subscribe">
+                 <h5 style="color: #fff; font-weight: 79;">subscribe to our monthly articles</h5>
+                 <input type="email" placeholder="example@email.com"><button style="background: linear-gradient(rgb(19, 255, 19),green); color: #fff;border: 1px linear-gradient(rgb(19, 255, 19))">subscribe</button>
+               </form>
+            </div>
+          </div>
+          <div class="row" style="background:#000">
+            <h6 style="justify-content: center; text-align: center; margin: auto;color:rgb(209, 209, 209);" > Copyright &copy; 2021-
+              <script>document.write(new Date().getFullYear())
+              </script> Mwachidennis All Rights Reserved</h6>
+          </div>
+                <!-- floating button-->
+  
+        <a href="#" class="float">
+          <i class="bi bi-arrow-up-circle-fill"></i>
+          </a>
+        <!-- floating button-->
+    </div>
+  
+  
+    <!-- CDN JS-->
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  </body>
+  </html>

@@ -1,0 +1,63 @@
+
+/*css imports */
+
+@import url(contacts.css);
+@import url(about.css);
+@import url(services.css);
+@import url(home.css);
+@import url(media-queries.css);
+
+/*CSS imports*/
+
+#wrapper{
+  min-height: 170vh;
+}
+
+#home{
+    margin-top: 20px;
+    min-height: 450px;
+    background: url(../img/gp\ bn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#intro{
+    min-height: 450px;
+    margin-top: 250px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+
+#more{
+    min-height: 450px;
+    background: rgba(0, 0, 0, 0.644);
+}
+@media screen and(min-width: 394px){
+    #pos-f-t button{
+        display: none;
+    }
+    
+}
+marquee{
+    min-height: 19px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.137);
+}
+
+       /*======================
+         floating button
+         ======================*/
+.float{
+	position:fixed;
+	bottom:40px;
+	right:40px;
+    font-size: 50px;
+	color:#FFF;
+	text-shadow: 2px 2px 3px #999;
+}
+
+.float i:hover{
+    transform: rotate(120deg);
+    color: rgb(102, 255, 0);
+}
+       /*floating button*/

@@ -1,0 +1,117 @@
+
+    /*======================\
+            SERVICES
+    \======================*/
+
+    #banner-services{
+        min-height: 320px;
+        background: url(../img/i.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    #Para{
+        min-height: 200px;
+        margin-top: 50px;
+        z-index: 250;
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        align-items: center;
+        text-align: left;
+        box-shadow: 0px 0px 30px rgba(70, 70, 70, 0.425);
+        margin-bottom: 40px;
+        
+        
+
+    }
+    #Para img{
+        width: 20%;
+    }
+    #Para h2{
+        margin-top: 35px;
+        text-align: center;
+    }
+
+    #Para p{
+        width: 70%;
+        float: left;
+        transition-duration: .5s;
+    }
+   #Para p:hover{
+        font-size: 18px;
+    }
+    #card-services{
+        min-height: 560px;
+        background: rgb(238, 238, 238);
+
+    }
+    #Partners1{
+        min-height: 50px;
+        margin-top: 150px;
+        text-align: center;
+        padding: 9px;
+        transition-duration: .9s;
+    }
+    #R{
+        min-height: 50px;
+        margin-top: 30px;
+    }
+    #S:hover,#T:hover,#U:hover,#V:hover,#W:hover,#R:hover{
+        transform: scale(1.1);
+        transition-duration: .9s;
+    }
+    #T,#S{
+        min-height: 50px;
+        margin-top: 30px;
+        
+    }
+    #U{
+        min-height: 50px;
+        margin-top: 30px;
+    }
+    #V{
+        min-height: 50px;
+        margin-top: 30px;
+    }
+    #W{
+        min-height: 50px;
+        margin-top: 30px;
+    }
+
+    #cards{
+        min-height: 450px;
+        margin-left: 40px;
+        margin-top: 50px;
+        border-radius: 15px;
+        overflow: hidden;
+        background: #fff;
+    }
+    
+    #cards:hover{
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.4);
+        transform: scale(110%);
+        transition-duration: .6s;
+        background: #000;
+        transform: translateY(5px);
+    }
+    #piC{
+        height: 80%;
+        background: rgb(255, 255, 255);
+    }
+    #p{
+        min-height: 20%;
+        background: rgb(255, 255, 255);
+        width: 100%;
+    }
+    
+    #Partners1::before{
+        content: "";
+        width: 30px;
+        height: 30px;
+        background: #000;
+    }
+    #Partners1:hover{
+        transform: translateX(5px);
+    }

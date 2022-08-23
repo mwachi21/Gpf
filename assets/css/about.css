@@ -1,0 +1,189 @@
+
+
+    /*======================\
+                ABOUT
+    \======================*/
+    #banner{
+        min-height: 40em;
+        background: rgb(104, 0, 0);
+        overflow: hidden;
+    }
+    .wrap-layer{
+        position: relative;
+     }
+
+     #slider1{
+         min-height: 450px;
+         background: rgb(102, 102, 102);
+         margin-top: 10
+        px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        animation: slider1 35s ease-in-out infinite;
+        transition-duration: .5s;
+     }
+     @keyframes slider1{
+         0%,30%{
+             background: url(../img/tree.jpg);
+             background-position: center;
+             
+        background-repeat: no-repeat;
+        background-size: cover;
+         }
+         30%,60%{
+             background: url(../img/carousel.jpg);
+              background-repeat: no-repeat;
+              background-position: center;
+        background-size: cover;
+         }
+         60%,90%{
+             background: url(../img/green\ planet.jpg);
+             
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+         }
+         90%,100%{
+             background: url(../img/ban.jpg);
+             content: 'Hello';
+             
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+         }
+     }
+     .text-layer{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 0;
+        left: 0;
+        padding: 30px;
+        text-align: center;
+        font-size: 32px;
+        line-height: 1.2;
+        pointer-events: none;
+     }
+     .background-layer svg * {
+        transition: fill 2s ease;
+     }
+     .background-layer:hover #E1{fill: rgb(17, 85, 0);}
+     .background-layer:hover #E2{fill: rgb(0, 146, 90);}
+     .background-layer:hover #E3{fill: rgb(4, 143, 124);}
+     .background-layer:hover #E4{fill: rgb(0, 90, 71);}
+     .background-layer:hover #E5{fill: rgb(0, 168, 76);}
+     #bg-layer{
+         border-radius:0 0 50% 50% ;
+     }
+     
+     #canvas{
+        min-height: 400px;
+        width: 50%;
+        background: rgb(255, 255, 255);
+        margin-left: 45%;
+        border-radius: 7px;
+        z-index: 3457;
+        transition-duration: .5s;
+        transform: translateY(420px);
+        box-shadow: 0px 0px 7px rgba(0, 0, 0, 5);
+    }
+    #canvas:hover{
+        box-shadow: 0px 0px 7px #fff;
+    }
+
+    #bg-layer img{
+        margin-left: 30px;
+        animation: img 5s ease-in-out infinite;
+    }
+    @keyframes img{
+        0%{
+            transform: rotateZ(0deg);
+            transform: rotateX(90deg);
+            transform: rotateY(-180deg);
+            transform: rotate(0deg);
+        }
+        50%{
+            transform: rotateZ(360deg);
+            transform: rotateX(250deg);
+            transform: rotateY(0deg);
+            transform: rotate(180deg);
+        }
+        100%{
+            transform: rotateZ(0deg);
+            transform: rotateY(260deg);
+            transform: rotateX(0deg);
+            transform: rotate(360deg);
+        }
+    }
+    #quick-links ul li{
+      list-style: none;  
+    }
+
+    #quick-links ul li a{
+        color: rgb(31, 31, 31);
+        text-decoration: dashed;
+        font-weight: 560;
+        
+    }
+     #quick-links ul li a:hover{
+         color: rgb(255, 255, 255);
+     }
+ #about-banner{
+    min-height: 450px;
+    background: url("../img/crop1.jpg");
+    margin-top: 50px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   transition-duration: .5s;
+ }
+ #about-banner h2{
+     margin-left: 50%;
+     
+ }
+
+.message{
+    min-height: 70px;
+    background: transparent;
+    width: 50%;
+    padding: 15px;
+    margin-left: 50%;
+}
+.message p{
+    z-index: 3435;
+    margin-left: 20px;
+    transform: translateY(-170px);
+    transition-duration: .9s;
+}
+.message img{
+    width: 100%;
+    z-index: 0;
+}
+.message p:hover{
+    font-size: larger;
+    font-size: bold;
+}
+#circlie{
+    min-height: 30px;
+    margin-top: 50px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0);
+}
+#circler{
+    width: 30px;
+    border-radius: 50px;
+    height: 30px;
+    margin-left: 70px;
+    background: rgb(180, 61, 61);
+    animation: animatecircler 3s ease-in-out infinite;
+}
+@keyframes animatecircler {
+    0%{
+        background: rgb(223, 126, 0);
+        transform: translateX(0px);
+    }
+    100%{
+        background: rgb(0, 139, 46);
+        transform: translateX(1080px);
+    }
+}
+
