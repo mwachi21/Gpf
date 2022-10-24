@@ -1,12 +1,11 @@
 # Project Green Planet Foundation 
-*
-*
+
 Just a dummy project
 My first complete web project (Bootstrap/ Html / CSS and PHP)
 *
 *
 The project was to test my skills in web Dev Using HTML/CSS/Bootstrap and introduction to PHP Contact forms
-*
+
 Responsiveness Bootstrap
 Structure HTML 
 Design    CSS
@@ -16,10 +15,13 @@ dynamics  PHP
 
 * _Bootstrap_
 
-Desktop
-Tablet
-Mobile
-Display
+_Desktop
+
+_Tablet
+
+_Mobile
+
+_Display
 
 
 
